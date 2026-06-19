@@ -1,6 +1,6 @@
 #Simple Calculator
 print("Simple Calculator")
-print("Choose an operation:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Quotient\n6. Remainder")
+print("Choose an operation:\n1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Remainder")
 while True:
     num1=int(input("Enter number:"))
     num2=int(input("Enter number:"))
@@ -19,11 +19,6 @@ while True:
             continue
         res=num1/num2
     elif choice==5:
-        if num2==0:
-            print("Zero Division error occured")
-            continue
-        res=num1//num2
-    elif choice==6:
         if num2==0:
             print("Zero division error occured")
             continue
